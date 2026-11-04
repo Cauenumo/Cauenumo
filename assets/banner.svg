@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Cauê Moreira, criador de cursos e simulados">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1120"/>
+      <stop offset="1" stop-color="#16213A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E5231B" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#E5231B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#FFFFFF" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="typeClip">
+      <rect class="type-rect" x="70" y="166" width="560" height="56"/>
+    </clipPath>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .name { fill: #FFFFFF; font-size: 74px; font-weight: 800; letter-spacing: -1.5px; }
+      .tag { fill: #FF5A52; font-size: 35px; font-weight: 600; }
+      .sub { fill: #B7C3D9; font-size: 23px; }
+      .pill { fill: #FFFFFF; font-size: 23px; font-weight: 600; text-anchor: middle; }
+      .rise { animation: rise .8s ease-out both; }
+      .sub-in { animation: fade .8s ease-out 2.5s both; }
+      .type-rect { animation: type 1.7s steps(29) .6s both; }
+      .caret { animation: caretMove 1.7s steps(29) .6s both, blink .9s step-end 2.3s 3 both; }
+      .draw { stroke-dasharray: 340; animation: draw 1.1s ease-out both; }
+      .d2 { animation-delay: .25s; } .d3 { animation-delay: .5s; }
+      .node { animation: fade .6s ease-out 1s both; }
+      @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+      @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes type { from { width: 0; } to { width: 560px; } }
+      @keyframes caretMove { from { transform: translateX(0); } to { transform: translateX(530px); } }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes draw { from { stroke-dashoffset: 340; } to { stroke-dashoffset: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .rise, .sub-in, .type-rect, .caret, .draw, .node { animation: none; }
+        .caret, .packet { display: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#dots)"/>
+  <circle cx="860" cy="180" r="240" fill="url(#glow)"/>
+
+  <!-- Texto -->
+  <text class="name rise" x="68" y="142">Cauê Moreira</text>
+  <g clip-path="url(#typeClip)">
+    <text class="tag" x="70" y="206" textLength="530" lengthAdjust="spacingAndGlyphs">criador de cursos e simulados</text>
+  </g>
+  <rect class="caret" x="72" y="176" width="3" height="38" fill="#FF5A52"/>
+  <text class="sub sub-in" x="70" y="256" textLength="590" lengthAdjust="spacingAndGlyphs">Dicas, novidades e experiências de engenharia de dados</text>
+
+  <!-- Fluxo: marca CM para o que o perfil oferece -->
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="2.5">
+    <path id="p1" class="draw" d="M900 180 C 960 180, 960 80, 1030 80"/>
+    <path id="p2" class="draw d2" d="M900 180 L 1030 180"/>
+    <path id="p3" class="draw d3" d="M900 180 C 960 180, 960 280, 1030 280"/>
+  </g>
+
+  <g class="packet" fill="#FF5A52">
+    <circle r="6"><animateMotion dur="2.4s" begin="1.4s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+    <circle r="6"><animateMotion dur="2.4s" begin="2.2s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+    <circle r="6"><animateMotion dur="2.4s" begin="3s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+  </g>
+
+  <!-- Marca CM, apenas as letras -->
+  <g class="rise">
+    <rect x="780" y="124" width="120" height="112" rx="22" fill="#0A1120" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="2"/>
+    <path d="M834 160 A 22 22 0 1 0 834 200" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="butt"/>
+    <path d="M842 202 V158 H850 L860 176 L870 158 H878 V202 H870 V174 L860 192 L850 174 V202 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Destinos -->
+  <g class="node">
+    <rect x="1030" y="52" width="190" height="56" rx="28" fill="#1B2742" stroke="#FFFFFF" stroke-opacity="0.2"/>
+    <text class="pill" x="1125" y="88">Cursos</text>
+    <rect x="1030" y="152" width="190" height="56" rx="28" fill="#1B2742" stroke="#FFFFFF" stroke-opacity="0.2"/>
+    <text class="pill" x="1125" y="188">Simulados</text>
+    <rect x="1030" y="252" width="190" height="56" rx="28" fill="#E5231B"/>
+    <text class="pill" x="1125" y="288">YouTube</text>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="226" height="52" viewBox="0 0 226 52" role="img" aria-label="Cursos na Udemy">
+  <rect x="1" y="1" width="224" height="50" rx="25" fill="#E5231B" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.5"/>
+  <path d="M36 18 L24 24 L36 30 L48 24 Z M29 28 V33 C29 35 33 37 36 37 C39 37 43 35 43 33 V28" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="58" y="33" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="600">Cursos na Udemy</text>
+</svg>
