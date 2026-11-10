@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Cauê Moreira, criador de cursos e simulados"/>
+  <img src="assets/banner-youtube.jpg" width="100%" alt="Dev Cauê Moreira: Databricks, SQL, dados e IA"/>
 </p>
 
 <p align="center">
   <a href="https://www.udemy.com/user/caue-nunes-moreira/"><img src="assets/btn-udemy.svg" height="44" alt="Cursos na Udemy"/></a>
   <a href="https://www.youtube.com/@devcauemoreira"><img src="assets/btn-youtube.svg" height="44" alt="Canal no YouTube"/></a>
   <a href="https://www.linkedin.com/in/cauemoreira/"><img src="assets/btn-linkedin.svg" height="44" alt="LinkedIn"/></a>
+  <a href="https://www.instagram.com/devcauemoreira/"><img src="assets/btn-instagram.svg" height="44" alt="Instagram"/></a>
 </p>
 
 <p align="center">
