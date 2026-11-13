@@ -10,7 +10,11 @@
 </p>
 
 <p align="center">
-  Crio cursos e simulados para quem quer crescer na área de dados.<br/>
+  <a href="https://credentials.databricks.com/4d7f9396-e404-41f1-a748-6ec35ba1dafe"><img src="assets/card-champion.svg" width="100%" alt="Databricks Solutions Architect Champion: ver credencial verificada"/></a>
+</p>
+
+<p align="center">
+  Sou <b>Databricks Solutions Architect Champion</b> e crio cursos e simulados para quem quer crescer na área de dados.<br/>
   No YouTube, compartilho dicas, novidades e experiências de engenharia de dados.
 </p>
 
