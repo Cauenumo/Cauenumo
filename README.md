@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.udemy.com/user/caue-nunes-moreira/"><img src="assets/btn-udemy.svg" height="44" alt="Cursos na Udemy"/></a>
-  <a href="https://www.youtube.com/@devcauemoreira"><img src="assets/btn-youtube.svg" height="44" alt="Canal no YouTube"/></a>
-  <a href="https://www.linkedin.com/in/cauemoreira/"><img src="assets/btn-linkedin.svg" height="44" alt="LinkedIn"/></a>
-  <a href="https://www.instagram.com/devcauemoreira/"><img src="assets/btn-instagram.svg" height="44" alt="Instagram"/></a>
+  <a href="https://www.udemy.com/user/caue-nunes-moreira/"><img src="assets/btn-udemy.svg" height="40" alt="Cursos na Udemy"/></a>
+  <a href="https://www.youtube.com/@devcauemoreira"><img src="assets/btn-youtube.svg" height="40" alt="Canal no YouTube"/></a>
+  <a href="https://www.linkedin.com/in/cauemoreira/"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn"/></a>
+  <a href="https://www.instagram.com/devcauemoreira/"><img src="assets/btn-instagram.svg" height="40" alt="Instagram"/></a>
 </p>
 
 <p align="center">
