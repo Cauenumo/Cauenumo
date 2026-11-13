@@ -13,10 +13,17 @@
   <a href="https://credentials.databricks.com/4d7f9396-e404-41f1-a748-6ec35ba1dafe"><img src="assets/card-champion.svg" width="100%" alt="Databricks Solutions Architect Champion: ver credencial verificada"/></a>
 </p>
 
-<p align="center">
-  Sou <b>Databricks Solutions Architect Champion</b> e crio cursos e simulados para quem quer crescer na área de dados.<br/>
-  No YouTube, compartilho dicas, novidades e experiências de engenharia de dados.
-</p>
+<h2 align="center">Sobre mim</h2>
+
+Sou **Cauê Moreira**, **Senior Data Engineer** e **Databricks Champion**, com mais de 7 anos de experiência em dados e tecnologia.
+
+Ao longo da minha carreira, atuei em projetos de modernização de plataformas de dados, migração de ambientes tradicionais para arquiteturas Lakehouse, processamento de grandes volumes de informação e desenvolvimento de soluções com **Databricks**, **Apache Spark**, **Python**, **SQL** e **Microsoft Azure**.
+
+Sou certificado pela Databricks como **Data Engineer Associate** e **Professional**, **Data Analyst Associate** e **Platform Administrator**, além de possuir acreditações em **Lakehouse** e **Generative AI**.
+
+Minha experiência vai além da teoria: no dia a dia, trabalho com desafios reais de engenharia de dados, arquitetura, performance, automação e construção de soluções no ecossistema Databricks.
+
+Também crio cursos e simulados para quem quer crescer na área de dados e, no YouTube, compartilho dicas, novidades e experiências de engenharia de dados.
 
 <h2 align="center">Cursos e simulados em português</h2>
 
